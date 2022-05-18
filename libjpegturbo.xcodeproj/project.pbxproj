@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFDEEA77283547EC00AE0B7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA76283547EC00AE0B7B /* AppDelegate.m */; };
+		BFDEEA7A283547EC00AE0B7B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA79283547EC00AE0B7B /* SceneDelegate.m */; };
+		BFDEEA7D283547EC00AE0B7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA7C283547EC00AE0B7B /* ViewController.m */; };
+		BFDEEA80283547EC00AE0B7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDEEA7E283547EC00AE0B7B /* Main.storyboard */; };
+		BFDEEA82283547EE00AE0B7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDEEA81283547EE00AE0B7B /* Assets.xcassets */; };
+		BFDEEA85283547EE00AE0B7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDEEA83283547EE00AE0B7B /* LaunchScreen.storyboard */; };
+		BFDEEA88283547EE00AE0B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA87283547EE00AE0B7B /* main.m */; };
+		BFDEEA92283547EE00AE0B7B /* libjpegturboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA91283547EE00AE0B7B /* libjpegturboTests.m */; };
+		BFDEEA9C283547EE00AE0B7B /* libjpegturboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA9B283547EE00AE0B7B /* libjpegturboUITests.m */; };
+		BFDEEA9E283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA9D283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFDEEA8E283547EE00AE0B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDEEA6A283547EC00AE0B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFDEEA71283547EC00AE0B7B;
+			remoteInfo = libjpegturbo;
+		};
+		BFDEEA98283547EE00AE0B7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDEEA6A283547EC00AE0B7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFDEEA71283547EC00AE0B7B;
+			remoteInfo = libjpegturbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFDEEA72283547EC00AE0B7B /* libjpegturbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libjpegturbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDEEA75283547EC00AE0B7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFDEEA76283547EC00AE0B7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFDEEA78283547EC00AE0B7B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BFDEEA79283547EC00AE0B7B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BFDEEA7B283547EC00AE0B7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFDEEA7C283547EC00AE0B7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFDEEA7F283547EC00AE0B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFDEEA81283547EE00AE0B7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFDEEA84283547EE00AE0B7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFDEEA86283547EE00AE0B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDEEA87283547EE00AE0B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFDEEA8D283547EE00AE0B7B /* libjpegturboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libjpegturboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDEEA91283547EE00AE0B7B /* libjpegturboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libjpegturboTests.m; sourceTree = "<group>"; };
+		BFDEEA97283547EE00AE0B7B /* libjpegturboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libjpegturboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFDEEA9B283547EE00AE0B7B /* libjpegturboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libjpegturboUITests.m; sourceTree = "<group>"; };
+		BFDEEA9D283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libjpegturboUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFDEEA6F283547EC00AE0B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDEEA8A283547EE00AE0B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDEEA94283547EE00AE0B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFDEEA69283547EC00AE0B7B = {
+			isa = PBXGroup;
+			children = (
+				BFDEEA74283547EC00AE0B7B /* libjpegturbo */,
+				BFDEEA90283547EE00AE0B7B /* libjpegturboTests */,
+				BFDEEA9A283547EE00AE0B7B /* libjpegturboUITests */,
+				BFDEEA73283547EC00AE0B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFDEEA73283547EC00AE0B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEA72283547EC00AE0B7B /* libjpegturbo.app */,
+				BFDEEA8D283547EE00AE0B7B /* libjpegturboTests.xctest */,
+				BFDEEA97283547EE00AE0B7B /* libjpegturboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFDEEA74283547EC00AE0B7B /* libjpegturbo */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEA75283547EC00AE0B7B /* AppDelegate.h */,
+				BFDEEA76283547EC00AE0B7B /* AppDelegate.m */,
+				BFDEEA78283547EC00AE0B7B /* SceneDelegate.h */,
+				BFDEEA79283547EC00AE0B7B /* SceneDelegate.m */,
+				BFDEEA7B283547EC00AE0B7B /* ViewController.h */,
+				BFDEEA7C283547EC00AE0B7B /* ViewController.m */,
+				BFDEEA7E283547EC00AE0B7B /* Main.storyboard */,
+				BFDEEA81283547EE00AE0B7B /* Assets.xcassets */,
+				BFDEEA83283547EE00AE0B7B /* LaunchScreen.storyboard */,
+				BFDEEA86283547EE00AE0B7B /* Info.plist */,
+				BFDEEA87283547EE00AE0B7B /* main.m */,
+			);
+			path = libjpegturbo;
+			sourceTree = "<group>";
+		};
+		BFDEEA90283547EE00AE0B7B /* libjpegturboTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEA91283547EE00AE0B7B /* libjpegturboTests.m */,
+			);
+			path = libjpegturboTests;
+			sourceTree = "<group>";
+		};
+		BFDEEA9A283547EE00AE0B7B /* libjpegturboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEA9B283547EE00AE0B7B /* libjpegturboUITests.m */,
+				BFDEEA9D283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m */,
+			);
+			path = libjpegturboUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFDEEA71283547EC00AE0B7B /* libjpegturbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDEEAA1283547EE00AE0B7B /* Build configuration list for PBXNativeTarget "libjpegturbo" */;
+			buildPhases = (
+				BFDEEA6E283547EC00AE0B7B /* Sources */,
+				BFDEEA6F283547EC00AE0B7B /* Frameworks */,
+				BFDEEA70283547EC00AE0B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libjpegturbo;
+			productName = libjpegturbo;
+			productReference = BFDEEA72283547EC00AE0B7B /* libjpegturbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFDEEA8C283547EE00AE0B7B /* libjpegturboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDEEAA4283547EE00AE0B7B /* Build configuration list for PBXNativeTarget "libjpegturboTests" */;
+			buildPhases = (
+				BFDEEA89283547EE00AE0B7B /* Sources */,
+				BFDEEA8A283547EE00AE0B7B /* Frameworks */,
+				BFDEEA8B283547EE00AE0B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFDEEA8F283547EE00AE0B7B /* PBXTargetDependency */,
+			);
+			name = libjpegturboTests;
+			productName = libjpegturboTests;
+			productReference = BFDEEA8D283547EE00AE0B7B /* libjpegturboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFDEEA96283547EE00AE0B7B /* libjpegturboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFDEEAA7283547EE00AE0B7B /* Build configuration list for PBXNativeTarget "libjpegturboUITests" */;
+			buildPhases = (
+				BFDEEA93283547EE00AE0B7B /* Sources */,
+				BFDEEA94283547EE00AE0B7B /* Frameworks */,
+				BFDEEA95283547EE00AE0B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFDEEA99283547EE00AE0B7B /* PBXTargetDependency */,
+			);
+			name = libjpegturboUITests;
+			productName = libjpegturboUITests;
+			productReference = BFDEEA97283547EE00AE0B7B /* libjpegturboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDEEA6A283547EC00AE0B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BFDEEA71283547EC00AE0B7B = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					BFDEEA8C283547EE00AE0B7B = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = BFDEEA71283547EC00AE0B7B;
+					};
+					BFDEEA96283547EE00AE0B7B = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = BFDEEA71283547EC00AE0B7B;
+					};
+				};
+			};
+			buildConfigurationList = BFDEEA6D283547EC00AE0B7B /* Build configuration list for PBXProject "libjpegturbo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFDEEA69283547EC00AE0B7B;
+			productRefGroup = BFDEEA73283547EC00AE0B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFDEEA71283547EC00AE0B7B /* libjpegturbo */,
+				BFDEEA8C283547EE00AE0B7B /* libjpegturboTests */,
+				BFDEEA96283547EE00AE0B7B /* libjpegturboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFDEEA70283547EC00AE0B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDEEA85283547EE00AE0B7B /* LaunchScreen.storyboard in Resources */,
+				BFDEEA82283547EE00AE0B7B /* Assets.xcassets in Resources */,
+				BFDEEA80283547EC00AE0B7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDEEA8B283547EE00AE0B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDEEA95283547EE00AE0B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFDEEA6E283547EC00AE0B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDEEA7D283547EC00AE0B7B /* ViewController.m in Sources */,
+				BFDEEA77283547EC00AE0B7B /* AppDelegate.m in Sources */,
+				BFDEEA88283547EE00AE0B7B /* main.m in Sources */,
+				BFDEEA7A283547EC00AE0B7B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDEEA89283547EE00AE0B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDEEA92283547EE00AE0B7B /* libjpegturboTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFDEEA93283547EE00AE0B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFDEEA9E283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m in Sources */,
+				BFDEEA9C283547EE00AE0B7B /* libjpegturboUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFDEEA8F283547EE00AE0B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFDEEA71283547EC00AE0B7B /* libjpegturbo */;
+			targetProxy = BFDEEA8E283547EE00AE0B7B /* PBXContainerItemProxy */;
+		};
+		BFDEEA99283547EE00AE0B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFDEEA71283547EC00AE0B7B /* libjpegturbo */;
+			targetProxy = BFDEEA98283547EE00AE0B7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFDEEA7E283547EC00AE0B7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDEEA7F283547EC00AE0B7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFDEEA83283547EE00AE0B7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFDEEA84283547EE00AE0B7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFDEEA9F283547EE00AE0B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFDEEAA0283547EE00AE0B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFDEEAA2283547EE00AE0B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = libjpegturbo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFDEEAA3283547EE00AE0B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = libjpegturbo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturbo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFDEEAA5283547EE00AE0B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libjpegturbo.app/libjpegturbo";
+			};
+			name = Debug;
+		};
+		BFDEEAA6283547EE00AE0B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturboTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/libjpegturbo.app/libjpegturbo";
+			};
+			name = Release;
+		};
+		BFDEEAA8283547EE00AE0B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libjpegturbo;
+			};
+			name = Debug;
+		};
+		BFDEEAA9283547EE00AE0B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturboUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = libjpegturbo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFDEEA6D283547EC00AE0B7B /* Build configuration list for PBXProject "libjpegturbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDEEA9F283547EE00AE0B7B /* Debug */,
+				BFDEEAA0283547EE00AE0B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDEEAA1283547EE00AE0B7B /* Build configuration list for PBXNativeTarget "libjpegturbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDEEAA2283547EE00AE0B7B /* Debug */,
+				BFDEEAA3283547EE00AE0B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDEEAA4283547EE00AE0B7B /* Build configuration list for PBXNativeTarget "libjpegturboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDEEAA5283547EE00AE0B7B /* Debug */,
+				BFDEEAA6283547EE00AE0B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFDEEAA7283547EE00AE0B7B /* Build configuration list for PBXNativeTarget "libjpegturboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFDEEAA8283547EE00AE0B7B /* Debug */,
+				BFDEEAA9283547EE00AE0B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDEEA6A283547EC00AE0B7B /* Project object */;
+}
