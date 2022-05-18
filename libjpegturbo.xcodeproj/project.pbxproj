@@ -17,6 +17,11 @@
 		BFDEEA92283547EE00AE0B7B /* libjpegturboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA91283547EE00AE0B7B /* libjpegturboTests.m */; };
 		BFDEEA9C283547EE00AE0B7B /* libjpegturboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA9B283547EE00AE0B7B /* libjpegturboUITests.m */; };
 		BFDEEA9E283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDEEA9D283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m */; };
+		BFDEEB29283548CE00AE0B7B /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDEEB27283548CE00AE0B7B /* libturbojpeg.a */; };
+		BFDEEB2A283548CE00AE0B7B /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDEEB28283548CE00AE0B7B /* libjpeg.a */; };
+		BFDEEB2C28354ACA00AE0B7B /* test.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BFDEEB2B28354ACA00AE0B7B /* test.jpeg */; };
+		BFDEEB3028354EAA00AE0B7B /* libturbojpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDEEB2E28354EAA00AE0B7B /* libturbojpeg.a */; };
+		BFDEEB3128354EAA00AE0B7B /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDEEB2F28354EAA00AE0B7B /* libjpeg.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		BFDEEA97283547EE00AE0B7B /* libjpegturboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libjpegturboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDEEA9B283547EE00AE0B7B /* libjpegturboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libjpegturboUITests.m; sourceTree = "<group>"; };
 		BFDEEA9D283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = libjpegturboUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BFDEEB21283548CE00AE0B7B /* jpeglib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpeglib.h; sourceTree = "<group>"; };
+		BFDEEB22283548CE00AE0B7B /* jerror.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jerror.h; sourceTree = "<group>"; };
+		BFDEEB23283548CE00AE0B7B /* turbojpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = turbojpeg.h; sourceTree = "<group>"; };
+		BFDEEB24283548CE00AE0B7B /* jconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jconfig.h; sourceTree = "<group>"; };
+		BFDEEB25283548CE00AE0B7B /* jmorecfg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmorecfg.h; sourceTree = "<group>"; };
+		BFDEEB27283548CE00AE0B7B /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
+		BFDEEB28283548CE00AE0B7B /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		BFDEEB2B28354ACA00AE0B7B /* test.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpeg; path = ../../../CLionProjects/RGBAndYUV/resource/test.jpeg; sourceTree = "<group>"; };
+		BFDEEB2E28354EAA00AE0B7B /* libturbojpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libturbojpeg.a; sourceTree = "<group>"; };
+		BFDEEB2F28354EAA00AE0B7B /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDEEB29283548CE00AE0B7B /* libturbojpeg.a in Frameworks */,
+				BFDEEB3128354EAA00AE0B7B /* libjpeg.a in Frameworks */,
+				BFDEEB3028354EAA00AE0B7B /* libturbojpeg.a in Frameworks */,
+				BFDEEB2A283548CE00AE0B7B /* libjpeg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +123,8 @@
 		BFDEEA74283547EC00AE0B7B /* libjpegturbo */ = {
 			isa = PBXGroup;
 			children = (
+				BFDEEB2B28354ACA00AE0B7B /* test.jpeg */,
+				BFDEEB1F283548CE00AE0B7B /* libjpeg-turbo-ios */,
 				BFDEEA75283547EC00AE0B7B /* AppDelegate.h */,
 				BFDEEA76283547EC00AE0B7B /* AppDelegate.m */,
 				BFDEEA78283547EC00AE0B7B /* SceneDelegate.h */,
@@ -134,6 +155,46 @@
 				BFDEEA9D283547EE00AE0B7B /* libjpegturboUITestsLaunchTests.m */,
 			);
 			path = libjpegturboUITests;
+			sourceTree = "<group>";
+		};
+		BFDEEB1F283548CE00AE0B7B /* libjpeg-turbo-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEB2D28354EAA00AE0B7B /* lib */,
+				BFDEEB20283548CE00AE0B7B /* include */,
+				BFDEEB26283548CE00AE0B7B /* lib */,
+			);
+			path = "libjpeg-turbo-ios";
+			sourceTree = "<group>";
+		};
+		BFDEEB20283548CE00AE0B7B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEB21283548CE00AE0B7B /* jpeglib.h */,
+				BFDEEB22283548CE00AE0B7B /* jerror.h */,
+				BFDEEB23283548CE00AE0B7B /* turbojpeg.h */,
+				BFDEEB24283548CE00AE0B7B /* jconfig.h */,
+				BFDEEB25283548CE00AE0B7B /* jmorecfg.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BFDEEB26283548CE00AE0B7B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEB27283548CE00AE0B7B /* libturbojpeg.a */,
+				BFDEEB28283548CE00AE0B7B /* libjpeg.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		BFDEEB2D28354EAA00AE0B7B /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				BFDEEB2E28354EAA00AE0B7B /* libturbojpeg.a */,
+				BFDEEB2F28354EAA00AE0B7B /* libjpeg.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +303,7 @@
 				BFDEEA85283547EE00AE0B7B /* LaunchScreen.storyboard in Resources */,
 				BFDEEA82283547EE00AE0B7B /* Assets.xcassets in Resources */,
 				BFDEEA80283547EC00AE0B7B /* Main.storyboard in Resources */,
+				BFDEEB2C28354ACA00AE0B7B /* test.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +437,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,10 +502,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6U4CU96Q;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = libjpegturbo/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -453,9 +519,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libjpegturbo/libjpeg-turbo-ios/lib64",
+					"$(PROJECT_DIR)/libjpegturbo/libjpeg-turbo-ios/lib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturbo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "WDB All Dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,10 +538,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q6U4CU96Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = libjpegturbo/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -479,9 +554,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libjpegturbo/libjpeg-turbo-ios/lib64",
+					"$(PROJECT_DIR)/libjpegturbo/libjpeg-turbo-ios/lib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdian.libjpegturbo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "WDB All Dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
